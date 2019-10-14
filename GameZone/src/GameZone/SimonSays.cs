@@ -1,4 +1,4 @@
-﻿/*
+﻿/* 
 using System;
 using System.Collections.Generic;
 
@@ -6,7 +6,7 @@ namespace GameZone
 {
     class SimonSays
     {
-        static void Main(string[] args)
+        public void Play(string[] args)
         {
             // print info about the game 
             Console.WriteLine("Welcome to your new game of Simon says! This is version 0.1 of the game.");
@@ -138,4 +138,4 @@ namespace GameZone
 // }
 
 
- */
+*/

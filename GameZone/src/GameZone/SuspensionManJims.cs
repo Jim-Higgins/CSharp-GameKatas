@@ -8,6 +8,7 @@ namespace GameZone
         public void Play()
         {
             // Info about the game
+            Console.Clear();
             Console.WriteLine("Welcome to...");
             Thread.Sleep(1000); // adding in Suspense for the player
             Console.WriteLine("...Suspension Man");
@@ -25,7 +26,8 @@ namespace GameZone
             // The game will tell you the length of the word
             Console.WriteLine("Thinking up a word for you...");
             // Fancy percentage laoding
-            SimplePercentageLoader();
+            var mySpinner = new Loader();
+            mySpinner.SimplePercentageLoader();
             Console.WriteLine($"The selected word is made up of {selectedWord.Length} letters.");
 
             // Player enters a letter 
@@ -78,15 +80,6 @@ namespace GameZone
 
 
         // Code for the loader
-        static void SimplePercentageLoader()
-        {
-            for (int i = 0; i <= 100; i++)
-            {
-                Console.Write($"\rProgress: {i}%    ");
-                Thread.Sleep(25);
-            }
-            Console.Write("\rDone!");
-            Console.Clear();
-        }
+
     }
 }

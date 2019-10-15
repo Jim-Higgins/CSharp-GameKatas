@@ -3,18 +3,16 @@ using System.Threading;
 
 namespace GameZone
 {
-    class SuspensionMan
+    class SuspensionManJims
     {
-
         public void Play()
         {
-
             // Info about the game
             Console.WriteLine("Welcome to...");
             Thread.Sleep(1000); // adding in Suspense for the player
             Console.WriteLine("...Suspension Man");
 
-            // a list of hard coded words to begin with
+            // A list of hard coded words to begin with
             string[] words = new string[]{
                 "fox", "rabbit", "fish"
             };
@@ -24,20 +22,18 @@ namespace GameZone
             int wordSeed = rnd.Next(words.Length);
             string selectedWord = words[wordSeed];
 
-            // the game will tell you the length of the word
+            // The game will tell you the length of the word
             Console.WriteLine("Thinking up a word for you...");
             // Fancy percentage laoding
             SimplePercentageLoader();
-
-            // Thread.Sleep(2000);
             Console.WriteLine($"The selected word is made up of {selectedWord.Length} letters.");
 
-            // player enters a letter 
+            // Player enters a letter 
             Console.WriteLine("Enter a letter to guess if it is in my word:");
             ConsoleKeyInfo keyPressed = Console.ReadKey();
             Console.WriteLine("\nYou pressed {0}", keyPressed.KeyChar);
 
-            // game says if the letter is present:
+            // Game says if the letter is present:
             Console.WriteLine($"Hhhm let me check that {keyPressed.KeyChar} is in my word...");
             Thread.Sleep(1000);
 

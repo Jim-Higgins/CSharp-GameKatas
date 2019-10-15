@@ -1,18 +1,35 @@
 using System;
+// using System.Collections.Generic;
 
 namespace GameZone
 {
-    class Home
+    class Program
     {
         static void Main(string[] args)
         {
-            SuspensionMan myGameOne = new SuspensionMan();
+            Console.Clear();
+            Console.WriteLine("Select your game choices: \nNorthCodersV \nJimsV");
+            Console.WriteLine("Select your game:");
+            Console.WriteLine("1) SimonSays \n2) SuspensionMan"); // add in list of games here
 
-            myGameOne.Play();
+            string selectedGame = Console.ReadLine();
+            if (selectedGame == "1")
+            {
+                Console.WriteLine("Simon picked");
+                var myGame = new SimonSays();
+                myGame.Play(args);
+            }
+            if (selectedGame == "2")
+            {
+                var myGame = new SuspensionManJims();
+                myGame.Play();
+            }
+           
 
-            // SimonSays myGameTwo = new SimonSays();
 
-            // myGameTwo.Play();
+
+
+
 
         }
     }

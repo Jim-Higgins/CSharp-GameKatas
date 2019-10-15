@@ -1,4 +1,4 @@
-﻿/* 
+﻿
 using System;
 using System.Collections.Generic;
 
@@ -93,7 +93,7 @@ namespace GameZone
 
             if (playAgain == "y")
             {
-                Main(args);
+                Play(args);
             }
             else
             {
@@ -136,6 +136,3 @@ namespace GameZone
 // {
 //     Console.WriteLine("You didnt give me a name");
 // }
-
-
-*/

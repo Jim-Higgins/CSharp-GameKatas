@@ -3,27 +3,23 @@ using System.Collections.Generic;
 
 namespace GameZone
 {
-    class SuspendPersonNC
+
+    public class SuspendPersonNC
     {
         public List<char> guesses = new List<char>();
+
         public void Play(List<string> wordList)
         {
-            Random rnd = new Random();
-            int newRnd = rnd.Next(wordList.Count);
-            string mysteryWord = wordList[newRnd];
+            int seed = GetValidRandomSeed(wordList.Count);
+            string mysteryWord = wordList[seed];
             Console.WriteLine("Welcome to the game, guess a letter");
             char letterGuess = Console.ReadKey().KeyChar;
             guesses.Add(letterGuess);
+
             foreach (char letter in mysteryWord)
             {
-                if (guesses.Contains(letter))
-                {
-                    Console.Write(letter);
-                }
-                else
-                {
-                    Console.Write('-');
-                }
+                char toPrint = GetCharacterToPrint(guesses, letter);
+                Console.Write(toPrint);
             }
             Console.WriteLine("\nHave a guess at the word");
             string wordGuess = Console.ReadLine();
@@ -40,6 +36,19 @@ namespace GameZone
             {
                 Play(wordList);
             }
+        }
+
+        public int GetValidRandomSeed(int max)
+        {
+            Random rnd = new Random();
+            int seed = rnd.Next(max);
+            return seed;
+        }
+
+        public char GetCharacterToPrint(List<char> guesses, char letter)
+        {
+            if (guesses.Contains(letter)) return letter;
+            return '-';
         }
     }
 }

@@ -13,6 +13,9 @@
         "packagesPath": "/Users/jimhiggins/.nuget/packages/",
         "outputPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/jimhiggins/.nuget/NuGet/NuGet.Config"
         ],

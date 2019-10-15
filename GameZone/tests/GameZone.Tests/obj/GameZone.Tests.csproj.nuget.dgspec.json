@@ -4,15 +4,18 @@
     "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj": {}
   },
   "projects": {
-    "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj": {
+    "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/GameZone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj",
-        "projectName": "GameZone.Tests",
-        "projectPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj",
+        "projectUniqueName": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/GameZone.csproj",
+        "projectName": "GameZone",
+        "projectPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/GameZone.csproj",
         "packagesPath": "/Users/jimhiggins/.nuget/packages/",
-        "outputPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/obj/",
+        "outputPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/jimhiggins/.nuget/NuGet/NuGet.Config"
         ],
@@ -25,6 +28,63 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj",
+        "projectName": "GameZone.Tests",
+        "projectPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/GameZone.Tests.csproj",
+        "packagesPath": "/Users/jimhiggins/.nuget/packages/",
+        "outputPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jimhiggins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/GameZone.csproj": {
+                "projectPath": "/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/src/GameZone/GameZone.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace GameZone
 {
-    class SuspensionManJims
+    public class SuspensionManJims
     {
         public void Play()
         {

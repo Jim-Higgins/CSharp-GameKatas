@@ -92,3 +92,6 @@
 /Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/obj/Debug/netcoreapp3.0/GameZone.Tests.csproj.CopyComplete
 /Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/obj/Debug/netcoreapp3.0/GameZone.Tests.dll
 /Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/obj/Debug/netcoreapp3.0/GameZone.Tests.pdb
+/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/bin/Debug/netcoreapp3.0/GameZone
+/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/bin/Debug/netcoreapp3.0/GameZone.dll
+/Users/jimhiggins/academy/Code/northCodersC#/CSharp-GameKatas/GameZone/tests/GameZone.Tests/bin/Debug/netcoreapp3.0/GameZone.pdb

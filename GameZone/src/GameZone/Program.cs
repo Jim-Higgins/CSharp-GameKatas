@@ -49,14 +49,13 @@ namespace GameZone
 
                 Console.Clear();
                 Console.WriteLine("Select your game:");
-                Console.WriteLine("1) na \n2) SuspensionMan"); // add in list of games here
+                Console.WriteLine("1) SimoneSays \n2) SuspensionMan"); // add in list of games here
                 string selectedGame = Console.ReadLine();
 
                 if (selectedGame == "1")
                 {
-                    Console.WriteLine("Simon picked");
-                    var myGame = new SimonSays();
-                    myGame.Play(args);
+                    var myGame = new SimoneSays();
+                    myGame.Play();
                 }
 
                 if (selectedGame == "2")
